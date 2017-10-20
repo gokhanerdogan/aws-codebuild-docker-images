@@ -8,6 +8,7 @@
       <id>securecentral</id>
       <!--Override the repository (and pluginRepository) "central" from the
          Maven Super POM -->
+      <localRepository>${user.home}/.m2/repository</localRepository>
       <repositories>
         <repository>
           <id>central</id>
